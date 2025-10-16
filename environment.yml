@@ -1,0 +1,7 @@
+name: plotly_dashboard_template # Replace with your dashboard name #UPDATE
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - -r requirements.txt 
+    # getting packages from pip with a requirements file allows dependabot to update version numbers on Github
